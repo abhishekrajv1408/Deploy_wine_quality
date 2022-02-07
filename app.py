@@ -1,5 +1,5 @@
 from flask import Flask , render_template, request
-app = Flask(__name__)
+app =Flask(__name__)
 
 import wineQualityPre as pr
 import pandas as pd
