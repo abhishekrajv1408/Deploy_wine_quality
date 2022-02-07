@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=
+>
+
+<style>
+    /* body{
+        background: rgb(227, 235, 219);
+    }
+    h1{
+        background: rgb(227, 235, 219);
+    }
+    p{
+        background: rgb(227, 235, 219);
+    } */
+    form{
+        font-size: 3ch;
+        background: rgb(234, 241, 241);
+    }
+</style>
+<title> WINE QUALITY  </title>
+</head>
+<body>
+    <center>
+    <h1 style="padding-top: 4ch; font-size: 8ch; overflow-y: scroll;">Welcome to Wine World</h1>
+    <p style="font-family: monospace; padding-top: 2ch; font-size: 3ch;" >This page is basicly check the Quality of Wine for You , and rate it in between 1 to 10 ratings. </p>
+    </center>
+    <form action="/sub" method="POST" style="padding-top: 5ch; padding-left: 15ch;" class="form" id="data">
+        <table>
+            <!-- <th>
+                <td>Ingredeant</td>
+                <td>Quantity</td>
+            </th> -->
+            <tr>
+        
+        <td><label for="name" >Enter the amount of fixed acidity in the give sample : </label></td>
+        <td><input type="number" name="a" placeholder="Enter the fixed acidity" step="0.01" required>
+        <input type="submit" style="opacity: inherit;">
+    </td>
+    </tr>
+        <tr>
+        <td><label for="name" >Enter the amount of volatile acidity in the give sample : </label></td>
+        <td><input type="number" name="b" placeholder="Enter the volatile acidity" step="0.001"  required>
+        <input type="submit" style="opacity: inherit;">
+    </td>
+    </tr>
+</tr>
+
+        <td><label for="name" >Enter the amount of citric acid in the give sample : </label></td>
+        <td><input type="number" name="c" placeholder="Enter the citric acid" step="0.001"  required>
+        <input type="submit" style="opacity: inherit;">
+    </td>
+    <tr>
+        <td><label for="name" >Enter the amount of chlorides in the give sample : </label></td>
+        <td><input type="number" name="d" placeholder="Enter the chlorides"  step="0.0001" required>
+        <input type="submit" style="opacity: inherit;"></td>
+    </tr>
+    <tr>
+        <td><label for="name" >Enter the amount of total sulfur dioxide in the give sample : </label></td>
+        <td><input type="number" name="e" placeholder="Enter the total sulfur dioxide" step="0.01" required>
+        <input type="submit" style="opacity: inherit;"></td>
+        </tr>
+        <tr>
+        <td><label for="name" >Enter the amount of density in the give sample : </label></td>
+        <td><input type="text" name="f" placeholder="Enter the density" step="0.00001"  required>
+        <input type="submit" style="opacity: inherit;"></td>
+    </tr>
+    <tr>
+        <td><label for="name" >Enter the amount of sulphates	 in the give sample : </label></td>
+        <td><input type="number" name="g" placeholder="Enter the sulphates	"  step="0.001" required>
+        <input type="submit" style="opacity: inherit;"></td>
+    </tr>
+    <tr>
+        <td><label for="name" >Enter the amount of alcohol in the give sample : </label></td>
+        <td><input type="number" name="h" placeholder="Enter the alcohol" step="0.01" required>
+        <input type="submit" style="opacity: inherit;"></td>
+    </tr>
+        </table>
+
+    </form>
+</body>
+</html>
