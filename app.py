@@ -42,7 +42,7 @@ def submit():
 
 
 # data is transfer from py to html
-        return render_template("sub.html", n=num ,df=df)
+        return render_template("sub.html", n=num ,df=data)
 
 
 
